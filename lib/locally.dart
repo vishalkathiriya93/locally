@@ -240,6 +240,7 @@ class Locally {
         importance: importance,
         priority: priority,
         ticker: ticker,
+        ongoing: true,
       );
 
       var iosPlatformChannelSpecifics = IOSNotificationDetails();
